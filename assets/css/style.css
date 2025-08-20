@@ -1049,7 +1049,7 @@ a.theme-btn.style-five:hover {
 }
 
 .solution-item-two.color-three > i {
-    background: #ff6101;
+    background: #4a38ee;
 }
 
 .solution-item-two.color-four > i {
@@ -3118,7 +3118,7 @@ blockquote .name-designation .designation {
     text-align: center;
     position: absolute;
     filter: blur(100px);
-    background: #ee9a38;
+    background: #ffc800;
 }
 
 .footer-two:after {
@@ -3133,7 +3133,7 @@ blockquote .name-designation .designation {
     text-align: center;
     position: absolute;
     filter: blur(100px);
-    background: #00ff12;
+    /* background: #011f6b; */
 }
 
 .inner-page .footer-section .newsletter-email button {
