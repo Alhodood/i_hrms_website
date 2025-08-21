@@ -1571,7 +1571,8 @@
     
       fetch('http://138.68.144.23:8080/api/create_crm_lead', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 'Content-Type': 'application/json',
+        'Cookie': 'session_id=1db124757fef1f5a3c656a707ec02bca892aa8d9'},
         body: JSON.stringify({ "name":name, "email_from":email, "phone":number,
          "company_id":1, "company":website, "description":message })
       })
@@ -1603,7 +1604,8 @@
           fetch('http://138.68.144.23:8080/api/create_crm_lead', {
             method: 'POST',
             headers: {
-              'Content-Type': 'application/json'
+              'Content-Type': 'application/json',
+              'Cookie': 'session_id=1db124757fef1f5a3c656a707ec02bca892aa8d9'
             },
             body: JSON.stringify({ "email":email,company_id:1, name:"" })
           })
