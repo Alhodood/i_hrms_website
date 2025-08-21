@@ -1607,7 +1607,7 @@
               'Content-Type': 'application/json',
               'Cookie': 'session_id=1db124757fef1f5a3c656a707ec02bca892aa8d9'
             },
-            body: JSON.stringify({ "email":email,company_id:1, name:"No name" })
+            body: JSON.stringify({ "email_from":email,company_id:1, name:"No name" })
           })
           .then(res => res.text())
           .then(data => {
